@@ -19,7 +19,6 @@ java {
 	withSourcesJar()
 	withJavadocJar()
 }
-subprojects { tasks.withType(Javadoc).all { enabled = false } }
 publishing {
     publications {
         maven(MavenPublication) {
