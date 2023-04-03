@@ -16,9 +16,6 @@ dependencies {
   implementation 'com.github.jitpack:gradle-simple:1.1'
 }
 
-someTask {
-    inputFile.from(jar.archiveFile)
-}
 java {
 	withSourcesJar()
 	withJavadocJar()
