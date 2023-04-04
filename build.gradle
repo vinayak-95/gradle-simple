@@ -29,6 +29,6 @@ publishing {
 }
 
 wrapper {
-    gradleVersion = "8.0.2"
+    gradleVersion = "6.1.1"
     distributionType = Wrapper.DistributionType.ALL
 }
